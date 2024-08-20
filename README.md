@@ -15,7 +15,7 @@ To run CalcGen locally, follow these steps:
 
 1. **Clone the repository**:
    bash
-   git clone https://github.com/gowtham472/CalcGen.git
+   git clone (https://github.com/gowtham472/Calculator.git)
 
 2. **Navigate to the project directory**: 
    bash
