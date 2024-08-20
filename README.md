@@ -14,7 +14,6 @@ CalcGen is a simple, visually appealing calculator web application. It supports 
 To run CalcGen locally, follow these steps:
 
 1. **Clone the repository**:
-   bash
    git clone (https://github.com/gowtham472/Calculator.git)
 
 2. **Navigate to the project directory**: 
