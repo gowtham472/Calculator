@@ -18,6 +18,6 @@ To run CalcGen locally, follow these steps:
 
 2. **Navigate to the project directory**: 
    bash
-   cd CalcGen
+   cd Calculator
    
 4. **Open calcgen.html in your preferred web browser**.
