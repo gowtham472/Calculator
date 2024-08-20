@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CalcGen</title>
+    <link rel="stylesheet" href="calcgen.css" />
+    <script src="calcgen.js" defer></script>
+    <script src="https://kit.fontawesome.com/5f410e176c.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="display: flex; justify-content: center">
+    <div class="container">
+        <header>
+            <h1>CalcGen</h1>
+        </header>
+        <form method="post">
+            <div class="workspace" id="workspace" maxlength="10"></div>
+            <div class="buttons">
+                <div class="on-row">
+                    <button type="button" data-value="sqrt">
+                        <i class="fa-solid fa-square-root-variable"></i>
+                    </button>
+                    <button type="button" data-value="%">
+                        <i class="fa-solid fa-percent"></i>
+                    </button>
+                    <button type="button" data-value="square">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 30">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <path d="M12.9326,6.5869 L7.9996,12.0129 L3.0676,6.5869 L1.5876,7.9329 L6.6486,13.4999 
+                                    L1.5876,19.0669 L3.0676,20.4129 L7.9996,14.9869 L12.9326,20.4129 L14.4126,
+                                    19.0669 L9.3516,13.4999 L14.4126,7.9329 L12.9326,6.5869 Z M18.9926,8.9999 
+                                    L22.9996,8.9999 L22.9996,10.9999 L15.9996,10.9999 L15.9996,9.9999 C15.9996 
+                                    8.1979 17.7926,7.3269 19.2336,6.6269 C19.7166,6.3929 20.9996,5.7689 20.9996,5.4999 
+                                    C20.9996,5.4039 20.5836,4.9999 19.7496,4.9999 C19.0726,4.9999 18.6156,
+                                    5.2829 18.5186,5.4759 L16.7306,4.5789 C17.2116,3.6199 18.3966,2.9999 19.7496,2.9999 
+                                    C21.5726,2.9999 22.9996,4.0979 22.9996,5.4999 C22.9996,7.0209 21.4636,
+                                    7.7679 20.1076,8.4259 C19.7436,8.6029 19.3436,8.7969 18.9926,8.9999 L18.9926,8.9999 Z"
+                                    fill="#3ecfff" />
+                            </g>
+                        </svg>
+                    </button>
+                    <button type="button" data-value="/"><i class="fa-solid fa-divide"></i></button>
+                </div>
+                <div class="tw-row">
+                    <button type="button" data-value="9"><i class="fa-solid fa-9"></i></button>
+                    <button type="button" data-value="8"><i class="fa-solid fa-8"></i></button>
+                    <button type="button" data-value="7"><i class="fa-solid fa-7"></i></button>
+                    <button type="button" data-value="*"><i class="fa-solid fa-x"></i></button>
+                </div>
+                <div class="th-row">
+                    <button type="button" data-value="6"><i class="fa-solid fa-6"></i></button>
+                    <button type="button" data-value="5"><i class="fa-solid fa-5"></i></button>
+                    <button type="button" data-value="4"><i class="fa-solid fa-4"></i></button>
+                    <button type="button" data-value="-"><i class="fa-solid fa-minus"></i></button>
+                </div>
+                <div class="fo-row">
+                    <button type="button" data-value="3"><i class="fa-solid fa-3"></i></button>
+                    <button type="button" data-value="2"><i class="fa-solid fa-2"></i></button>
+                    <button type="button" data-value="1"><i class="fa-solid fa-1"></i></button>
+                    <button type="button" data-value="+"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="fi-row">
+                    <button type="button" data-value="."><i class="fa-solid fa-dot"><h1>.</h1></i></button>
+                    <button type="button" data-value="0"><i class="fa-solid fa-0"></i></button>
+                    <button type="button" data-value="delete" id="delete-button">
+                        <i class="fa-solid fa-delete-left"></i>
+                    </button>
+                    <button type="button" id="equal-button">
+                        <i class="fa-solid fa-equals"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
